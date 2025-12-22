@@ -1,0 +1,131 @@
+#root {
+  margin: 0px;
+  text-align: center;
+}
+
+.fotito {
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  background-color: #242424;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 7rem;
+  margin: auto;
+  padding: 0;
+  animation: ShowNav 2s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.presentacion {
+  font-weight: bold;
+  margin-top: 6.5rem;
+  animation: ShowPresentation 2s;
+}
+
+.contacto {
+  margin-bottom: 5rem;
+  animation: ShowContact 2s;
+}
+
+.contacto > a {
+  font-size: 1.5rem;
+  margin: 2rem 2rem;
+  color: white;
+}
+
+.contacto > p {
+  border: white 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  display: flexbox;
+  justify-self: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.contacto > p > i {
+  margin-right: 5px;
+}
+
+.tecnologias {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-mi {
+  margin: 0rem 300px 0rem 300px;
+}
+
+.experiencia h3 {
+  margin: 1px;
+}
+
+.linea {
+  width: 50%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 2rem auto;
+}
+
+.proyectos {
+  margin: 2rem 200px 2rem 200px;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.icons > i {
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
+section { 
+  scroll-margin-top: 80px; 
+}
+
+@keyframes ShowNav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ShowPresentation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ShowContact {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
