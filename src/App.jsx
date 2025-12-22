@@ -13,7 +13,7 @@ function App() {
         </ul>
       </nav>
       <div className="presentacion">
-        <img className="fotito" src="/photo.png" alt="Foto" />
+        <img className="fotito" src="photo.png" alt="Foto" />
         <h1>Lucas Urquiza</h1>
         <h1>Desarrollador Front-End</h1>
       </div>
