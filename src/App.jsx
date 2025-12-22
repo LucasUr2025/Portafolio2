@@ -13,13 +13,13 @@ function App() {
         </ul>
       </nav>
       <div className="presentacion">
-        <img className="fotito" src="/public/photo.png" alt="Foto" />
+        <img className="fotito" src="/photo.png" alt="Foto" />
         <h1>Lucas Urquiza</h1>
         <h1>Desarrollador Front-End</h1>
       </div>
       <div className="contacto">
         <p><i className="fa-solid fa-envelope"></i>urquilucas762@gmail.com</p>
-        <a href="/public/Currículum.pdf" target="_blank"><i className="fa-solid fa-file"></i></a>
+        <a href="Currículum.pdf" target="_blank"><i className="fa-solid fa-file"></i></a>
         <a href="https://github.com/LucasUr2025" target="_blank"><i className="fa-brands fa-github"></i></a>
         <a href="https://www.linkedin.com/in/lucas-urquiza-urquiza-sandoval-3b6ba738b/?trk=li_LOL_SPIN_global_careers_jobsgtm_conv_acq_july2022_spinv1" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
         <p> <i className="fas fa-map-marker-alt"></i> Argentina, Buenos Aires </p>
@@ -56,7 +56,7 @@ function App() {
         <h2>Proyectos</h2>
         <div className="lista-proyectos">
           <Proyecto
-            imagen="/public/calculator.png"
+            imagen="calculator.png"
             titulo="Calculadora Simple"
             descripcion="Interfaz clara, intuitiva y moderna para realizar operaciones básicas: suma, resta, multiplicación, división, paréntesis y decimales."
             codigo="https://github.com/LucasUr2025/Calculadora-Simple.git"
